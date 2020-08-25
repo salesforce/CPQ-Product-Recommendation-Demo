@@ -1,4 +1,4 @@
-# CPQ-Product-Recommendation-Demo
+# CPQ Product Recommendation Engine Demo
 This is a demo recommendation engine which reads all org quotes from salesforce database, 
 generates product recommendations and inserts them into the Salesforce database. 
 
