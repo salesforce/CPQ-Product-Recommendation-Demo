@@ -1,10 +1,13 @@
-/**
-* @author Salesforce.com
-* @date 2020
-*
-* @description This recommendation plugin returns a sorted list of recommendations
-* as pricebook entries, ordered in descending order of score.
-*/
+/*
+ * Copyright (c) 2018, salesforce.com, inc.
+ * All rights reserved.
+ * SPDX-License-Identifier: BSD-3-Clause
+ * For full license text, see LICENSE.txt file in the repo root or
+ * https://opensource.org/licenses/BSD-3-Clause
+ *
+ * @description This recommendation plugin returns a sorted list of
+ * recommendations as pricebook entries, ordered in descending order of score.
+ */
 public with sharing class ScoredRecoPluginImpl implements ProductRecommendationPlugin {
     public PricebookEntry[] recommend(SObject quote, List<SObject> quoteLines) {
         // Get the price book Id of the quote

@@ -1,9 +1,13 @@
-/**
-* @author Salesforce.com
-* @date 2020
-*
-* @description This class implements Comparable, and encapsulates the pricebook entry along with a score.
-*/
+/*
+ * Copyright (c) 2018, salesforce.com, inc.
+ * All rights reserved.
+ * SPDX-License-Identifier: BSD-3-Clause
+ * For full license text, see LICENSE.txt file in the repo root or
+ * https://opensource.org/licenses/BSD-3-Clause
+ *
+ * @description This class implements Comparable, and encapsulates the pricebook
+ * entry along with a score.
+ */
 public class EntryWrapper implements Comparable {
 
     public PricebookEntry pbEntry;

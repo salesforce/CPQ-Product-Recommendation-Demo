@@ -1,5 +1,12 @@
 """
-This module generates the product recommendations along with a percentage score for each.
+Copyright (c) 2018, salesforce.com, inc.
+All rights reserved.
+SPDX-License-Identifier: BSD-3-Clause
+For full license text, see LICENSE.txt file in the repo root or
+https://opensource.org/licenses/BSD-3-Clause
+
+This module generates the product recommendations along with a percentage score
+for each.
 """
 from itertools import combinations
 import pandas as pd
@@ -12,7 +19,8 @@ SCORE_THRESHOLD = 0
 
 def get_product_recommendations(quote_lines):
     """
-    uses item-item co-occurrence matrix to find recommendations.
+    Uses item-item co-occurrence matrix to find recommendations.
+
     Each recommendation is scored as a percentage from 1 to 100.
     Eg. if all quotes containing product A, also has product B
     then, among the recommendations for A:

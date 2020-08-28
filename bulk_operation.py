@@ -1,4 +1,10 @@
 """
+Copyright (c) 2018, salesforce.com, inc.
+All rights reserved.
+SPDX-License-Identifier: BSD-3-Clause
+For full license text, see LICENSE.txt file in the repo root or
+https://opensource.org/licenses/BSD-3-Clause
+
 This module authenticates with the bulk api service and uses the bulk api
 to read QuoteLine__c data and insert custom product recommendation objects.
 """
